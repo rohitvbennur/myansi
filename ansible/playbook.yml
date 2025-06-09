@@ -5,8 +5,8 @@
   tasks:
     - name: Copy WAR file to Tomcat
       copy:
-        src: "/var/snap/jenkins/4870/workspace/MavAnsWeb/target/MavAnsWeb.war"
-        dest: "/opt/tomcat/webapps/MavAnsWeb.war"
+        src: "/var/snap/jenkins/4874/workspace/MavAnsWeb/target/myansi-1.0-SNAPSHOT.jar"
+        dest: "/opt/tomcat/webapps/myansi-1.0-SNAPSHOT.jar"
         remote_src: no
 
     - name: Restart Tomcat
